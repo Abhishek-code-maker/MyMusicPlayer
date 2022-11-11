@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearLayoutNav"
+    android:layout_width="match_parent"
+    android:layout_height="170dp"
+    android:padding="16dp"
+    android:background="@color/purple_700"
+    android:orientation="vertical"
+    android:layout_marginTop="55dp">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/music_icon_round"
+        android:contentDescription="@string/app_icon"
+        android:paddingTop="15dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp"
+        android:text="@string/welcome_to_music_world"
+        android:textColor="@color/white"
+        android:textSize="20sp"/>
+</LinearLayout>

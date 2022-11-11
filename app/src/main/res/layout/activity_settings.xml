@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SettingsActivity"
+    android:orientation="vertical"
+    android:background="@color/black">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="@string/set_themes"
+        android:background="@color/white"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:layout_marginTop="3dp"
+        android:gravity="center"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal"
+        android:background="@color/white">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/coolBlue"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/ic_circle"
+            android:tint="#09D0F4"/>
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/coolPurple"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/ic_circle"
+            android:tint="#7337A2"/>
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/coolOrange"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/ic_circle"
+            android:tint="#F44209"/>
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/coolRed"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/ic_circle"
+            android:tint="#F40909"/>
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/blackTheme"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/ic_circle"
+            android:tint="@color/black"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:paddingHorizontal="16dp"
+        android:layout_marginVertical="2dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:text="@string/set_themes"
+            android:background="@color/white"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:layout_marginTop="2dp"
+            android:gravity="center|start"
+            android:paddingStart="5dp"/>
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/sortBtn"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_sort"
+            android:tint="#F4097B"
+            android:padding="5dp"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/versionName"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/version_name"
+        android:background="@color/white"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:padding="16dp"/>
+
+
+</LinearLayout>

@@ -1,0 +1,20 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+        //        for importing repositories from github --> Volume
+        maven { url 'https://www.jitpack.io' }
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+        //        for importing repositories from github --> Volume
+        maven { url 'https://www.jitpack.io' }
+    }
+}
+rootProject.name = "My Music Player"
+include ':app'

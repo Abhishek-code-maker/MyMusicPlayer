@@ -1,0 +1,153 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <attr name="themeColor" format="color"/>
+    <style name="splash_screen" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="android:windowBackground">@drawable/splash_screen</item>
+        <item name="android:forceDarkAllowed" tools:targetApi="q">false</item>
+    </style>
+
+    <!--    Background as well as text color for alert dialog buttons-->
+    <attr name="dialogTextColor" format="color"/>
+    <attr name="dialogBtnBackground" format="color"/>
+
+    <!-- Base application theme. -->
+    <style name="coolBlue" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="themeColor">#40E0D0</item>
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/black</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/themeColor</item>
+        <!-- Customize your theme here. -->
+        <item name="dialogBtnBackground">?attr/themeColor</item>
+        <item name="dialogTextColor">@color/white</item>
+        <item name="android:forceDarkAllowed" tools:targetApi="q">false</item>
+    </style>
+    <style name="coolPurple" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="themeColor">#7337A2</item>
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/black</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/themeColor</item>
+        <item name="dialogBtnBackground">?attr/themeColor</item>
+        <item name="dialogTextColor">@color/white</item>
+        <item name="android:forceDarkAllowed" tools:targetApi="q">false</item>
+    </style>
+    <style name="coolOrange" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="themeColor">#F44209</item>
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/black</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="dialogBtnBackground">?attr/themeColor</item>
+        <item name="dialogTextColor">@color/white</item>
+        <item name="android:forceDarkAllowed" tools:targetApi="q">false</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/themeColor</item>
+    </style>
+    <style name="coolRed" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="themeColor">#F40909</item>
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/black</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <item name="dialogBtnBackground">?attr/themeColor</item>
+        <item name="dialogTextColor">@color/white</item>
+        <item name="android:forceDarkAllowed" tools:targetApi="q">false</item>
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/themeColor</item>
+    </style>
+    <style name="coolBlack" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="themeColor">#000000</item>
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/black</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <item name="dialogBtnBackground">?attr/themeColor</item>
+        <item name="dialogTextColor">@color/white</item>
+        <item name="android:forceDarkAllowed" tools:targetApi="q">false</item>
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/themeColor</item>
+    </style>
+
+
+<!--    Theme for Navigation Drawer-->
+    <style name="coolBlueNav" parent="Theme.MaterialComponents.Light">
+        <item name="themeColor">#40E0D0</item>
+        <item name="colorPrimary">@color/white</item>
+        <item name="colorPrimaryVariant">@color/black</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <item name="dialogBtnBackground">?attr/themeColor</item>
+        <item name="dialogTextColor">@color/white</item>
+        <item name="android:forceDarkAllowed" tools:targetApi="q">false</item>
+        <item name="colorSecondary">#40E0D0</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/themeColor</item>
+    </style>
+    <style name="coolPurpleNav" parent="Theme.MaterialComponents.Light">
+        <item name="themeColor">#7337A2</item>
+        <item name="colorPrimary">@color/white</item>
+        <item name="dialogBtnBackground">?attr/themeColor</item>
+        <item name="dialogTextColor">@color/white</item>
+        <item name="android:forceDarkAllowed" tools:targetApi="q">false</item>
+        <item name="colorPrimaryVariant">@color/black</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <item name="colorSecondary">#40E0D0</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/themeColor</item>
+    </style>
+    <style name="coolOrangeNav" parent="Theme.MaterialComponents.Light">
+        <item name="themeColor">#F44209</item>
+        <item name="colorPrimary">@color/white</item>
+        <item name="colorPrimaryVariant">@color/black</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <item name="dialogBtnBackground">?attr/themeColor</item>
+        <item name="dialogTextColor">@color/white</item>
+        <item name="android:forceDarkAllowed" tools:targetApi="q">false</item>
+        <item name="colorSecondary">#40E0D0</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/themeColor</item>
+    </style>
+    <style name="coolRedNav" parent="Theme.MaterialComponents.Light">
+        <item name="themeColor">#F40909</item>
+        <item name="colorPrimary">@color/white</item>
+        <item name="colorPrimaryVariant">@color/black</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <item name="dialogBtnBackground">?attr/themeColor</item>
+        <item name="dialogTextColor">@color/white</item>
+        <item name="android:forceDarkAllowed" tools:targetApi="q">false</item>
+        <item name="colorSecondary">#40E0D0</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/themeColor</item>
+    </style>
+    <style name="coolBlackNav" parent="Theme.MaterialComponents.DayNight">
+        <item name="themeColor">@color/black</item>
+        <item name="colorPrimary">@color/white</item>
+        <item name="colorPrimaryVariant">@color/black</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <item name="dialogBtnBackground">?attr/themeColor</item>
+        <item name="dialogTextColor">@color/white</item>
+        <item name="android:forceDarkAllowed" tools:targetApi="q">false</item>
+        <item name="colorSecondary">#40E0D0</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/themeColor</item>
+    </style>
+
+
+</resources>
